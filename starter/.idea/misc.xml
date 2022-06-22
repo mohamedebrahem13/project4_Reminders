@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/moham/AndroidStudioProjects/nd940-android-kotlin-c4-starter/starter/app/src/main/res/layout/activity_authentication.xml" value="0.18072916666666666" />
+        <entry key="..\:/Users/moham/AndroidStudioProjects/nd940-android-kotlin-c4-starter/starter/app/src/main/res/layout/activity_reminder_description.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/moham/AndroidStudioProjects/nd940-android-kotlin-c4-starter/starter/app/src/main/res/layout/activity_reminders.xml" value="0.17299898682877407" />
+        <entry key="..\:/Users/moham/AndroidStudioProjects/nd940-android-kotlin-c4-starter/starter/app/src/main/res/layout/fragment_reminders.xml" value="0.17299898682877407" />
+        <entry key="..\:/Users/moham/AndroidStudioProjects/nd940-android-kotlin-c4-starter/starter/app/src/main/res/layout/fragment_save_reminder.xml" value="0.29393115942028986" />
+        <entry key="..\:/Users/moham/AndroidStudioProjects/nd940-android-kotlin-c4-starter/starter/app/src/main/res/layout/fragment_select_location.xml" value="0.29393115942028986" />
+        <entry key="..\:/Users/moham/AndroidStudioProjects/nd940-android-kotlin-c4-starter/starter/app/src/main/res/layout/it_reminder.xml" value="0.2658514492753623" />
+        <entry key="..\:/Users/moham/AndroidStudioProjects/nd940-android-kotlin-c4-starter/starter/app/src/main/res/xml/network_security_config.xml" value="0.28396739130434784" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
