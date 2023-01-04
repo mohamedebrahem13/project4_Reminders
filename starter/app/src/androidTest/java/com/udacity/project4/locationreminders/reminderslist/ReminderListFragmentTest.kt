@@ -126,7 +126,7 @@ class ReminderListFragmentTest : AutoCloseKoinTest() {
         scenario.onFragment {
             Navigation.setViewNavController(it.view!!, navController)
         }
-        // WHEN - Click on the first list item
+        // WHEN - Click on the fab to add first list item
         onView(withId(R.id.addReminderFAB)).perform(click())
         // THEN - Verify that we navigate to the first reminder screen
         verify(navController).navigate(ReminderListFragmentDirections.toSaveReminder())

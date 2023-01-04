@@ -48,7 +48,7 @@ class SaveReminderViewModelTest {
     @Test
     fun whenIncompleteInfo_validationReturnsTrue() {
         // GIVEN
-        //  reminder fields if location and title  not null should return false
+        //  reminder fields if location and title  not null should return true
         saveReminderViewModel.onClear()
         saveReminderViewModel.reminderTitle.value = "location"
         saveReminderViewModel.reminderDescription.value = "some description"

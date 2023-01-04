@@ -197,7 +197,7 @@ class RemindersActivityTest :
         Espresso.closeSoftKeyboard()
       //click on save button
         onView(withId(R.id.saveReminder)).perform(click())
-        // here if we don't put the location the snackbar shows with please select  location
+        // here if we don't put the location the snackbar shows  error with please select  location
         val snackBarMessage = appContext.getString(R.string.err_select_location)
         // check for snackbar
         onView(withText(snackBarMessage))
