@@ -2,7 +2,6 @@ package com.udacity.project4
 
 import android.app.Activity
 import android.app.Application
-import android.widget.Toolbar
 import androidx.test.core.app.ActivityScenario
 import androidx.test.core.app.ApplicationProvider.getApplicationContext
 import androidx.test.espresso.Espresso
@@ -171,7 +170,7 @@ class RemindersActivityTest :
             .perform(ViewActions.replaceText(" Description 2"))
 
         // Confirm that if we click back button once, we end up back at the task reminder list page
-        onView(isRoot()).perform(ViewActions.pressBack());
+        onView(isRoot()).perform(ViewActions.pressBack())
         // if addReminderFab is appear so we are in the reminder list page
         onView(withId(R.id.addReminderFAB)).check(matches(isDisplayed()))
 
