@@ -16,8 +16,9 @@
         android:gravity="center"
         android:orientation="vertical"
         tools:context=".locationreminders.ReminderDescriptionActivity">
-        <!--TODO: add the design of the reminder details-->
 
+
+<!--        after the user click the notification we get the reminder value from notification intent -->
         <TextView
             style="@style/FirebaseUI.Text"
             android:layout_width="wrap_content"
