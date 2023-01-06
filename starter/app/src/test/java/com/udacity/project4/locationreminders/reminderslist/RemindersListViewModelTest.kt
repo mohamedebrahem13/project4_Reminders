@@ -62,7 +62,7 @@ class RemindersListViewModelTest {
         // THEN - It's an error, there's a snackBar
         // using hamcrest is for more readability
 
-        assertThat(remindersListViewModel.showSnackBar.getOrAwaitValue(),`is`("Reminder not found!"))
+        assertThat(remindersListViewModel.showSnackBar.getOrAwaitValue(),`is`("Test Exception"))
     }
 
     @Test
