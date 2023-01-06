@@ -109,7 +109,7 @@ class SaveReminderFragment : BaseFragment() {
             val id = UUID.randomUUID().toString()
             item= ReminderDataItem(title, description, location, latitude, longitude, id = id)
 
-            if(_viewModel.validateAndSaveReminder(item)) {
+            if(_viewModel.validateEnteredData(item)) {
                 // check for permission and start the geofence
                 checkPermissionsAndStartGeofencing()
             }
